@@ -26,7 +26,7 @@ WHERE first_name like 'Irene' OR first_name = 'Vidya' OR first_name = 'Maya';
 
 SELECT first_name
 FROM employees
-WHERE first_name like 'Irene' OR first_name = 'Vidya' OR first_name = 'Maya' AND gender = 'Male';
+WHERE first_name like 'Irene' OR first_name = 'Vidya' OR first_name = 'Maya' AND gender = 'Male'dd;
 
 SELECT last_name
 FROM employees
