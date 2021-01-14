@@ -1,9 +1,9 @@
 use employees;
 
-SELECT first_name
+SELECT first_name, COUNT(*)
 FROM employees
 WHERE first_name IN ('Irene', 'Vidya', 'Maya')
-ORDER BY first_name;
+ORDER BY gender ;
 
 SELECT first_name, last_name
 FROM employees
