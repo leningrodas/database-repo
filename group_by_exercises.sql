@@ -26,6 +26,6 @@ GROUP BY last_name;
 SELECT first_name, COUNT(*)
 FROM employees
 WHERE first_name IN ('Irene', 'Vidya', 'Maya')
-ORDER BY gender;
+GROUP BY gender;
 
 
